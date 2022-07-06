@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+  padding-top: 150px;
+}
+
+.container {
+  max-width: 1080px;
+  width: 100%;
+
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: 100px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+
+  border-bottom: 1px solid #fff;
+}
+
+.description {
+  font-size: 30px;
+  
+  padding-bottom: 30px;
+}
+
+.btn {
+  padding: 10px 150px;
+  
+  text-decoration: none;
+  color: #000;
+
+  background-color: #fff;
+  border-radius: 5px;
+
+  transition: 200ms ease-in;
+  box-shadow: 0px 0px 5px #fff;
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 20px #fff;
+    opacity: 80%;
+}
+
+.about {
+  padding-top: 100px;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 400;
+
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+
+  border-bottom: 1px solid #fff;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info {
+  width: 500px;
+}
+
+.infotext {
+  font-size: 30px;
+  line-height: 1.4;
+}
+
+.team {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}

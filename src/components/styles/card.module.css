@@ -1,0 +1,41 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 30px;
+
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+
+    padding: 20px;
+}
+
+.cardInfo {
+    display: grid;
+    grid-template-columns: repeat(1, 150px);
+    grid-template-rows: repeat(1, 50px);
+}
+
+.cardTitle {
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.cardDesc {
+    text-align: center;
+}
+
+.imageWrapper {
+    border-radius: 5px;
+
+    padding: 20px;
+}
